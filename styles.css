@@ -1,1 +1,15 @@
 /* your code */
+table,td,th {
+  border: 1px solid black;
+border-collapse: collapse;
+}
+th{
+	background-color:darkslateblue;
+	color:white;
+}
+.columncolor{
+	background-color:#e8e8e8
+}
+.{
+	border-radius:10px;
+}
