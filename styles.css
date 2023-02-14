@@ -1,6 +1,6 @@
 /* your code */
 table,td,th {
-  border: 1px solid black;
+  border: 1px none black;
 border-collapse: collapse;
 }
 th{
@@ -11,5 +11,19 @@ th{
 	background-color:#e8e8e8
 }
 th,td{
-	padding-right:20px;
+	padding-top:5px;
+	padding-right:38px;
+	padding-bottom:5px;
+}
+.corner1{
+	border-top-left-radius:10px;
+}
+.corner2{
+	border-top-right-radius:10px;
+}
+.corner3{
+	border-bottom-left-radius:10px;
+}
+.corner4{
+	border-bottom-right-radius:10px;
 }
